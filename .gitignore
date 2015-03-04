@@ -1,0 +1,56 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+target/
+.work/
+
+# Eclipse project files #
+#########################
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA project files #
+###############################
+.idea/
+*.iml
+
+# Ignore nifi source files #
+############################
+nifi-source/
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.nar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*.zargo~
